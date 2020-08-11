@@ -1,0 +1,627 @@
+*{
+	margin:0;
+	padding: 0;
+	}
+body{
+	font-family: 'Fjalla One', sans-serif;
+}
+#nav-bar{
+	position:sticky;
+	top:0;
+	z-index:10;
+
+}
+.navbar-brand img{
+	height:60px;
+	width:100px;
+	padding-left:30px;
+	color:rgba(0,0,0,0.7);
+
+}
+.navbar-nav li{
+	padding:0px 10px;
+	height: 30px;
+}
+.navbar-nav li a{
+	float:right;
+	text-align: left;
+}
+#nav-bar ul li a:hover{
+	color:#45b4d4 !important;
+	text-align: center;
+}
+#nav-bar ul li a:hover:after{
+	content:" ";
+    background:#fff;
+    display:block;
+    height:3px;
+    width:80px;
+    margin:20px auto 5px;
+}
+.navbar{
+	background:#121733;
+	transition: background 1s;
+}
+.navbar:hover{
+	background:#232e33;
+}
+.navbar-toggler{
+	background-color: #fff!important;
+	color:white;
+	border:none!important;
+}
+.nav-link{
+	color:#fff!important;
+	font-weight: 600;
+	font-size:16px;
+}
+#search1{
+	color:white!important;
+	border-color:white;
+}
+#search1:hover{
+	color:#fff!important;
+	background-color:#45b4d4!important;
+}
+#slider{
+	width:100%;
+}
+#slideimg{
+	width:100%;
+	height:auto;
+	background-repeat: no-repeat;
+} 
+.carousel-caption{
+        position: relative;    
+        overflow:hidden;   
+        background-color: rgba(0, 0, 0, 0.7);  
+        max-width:700px;
+        height:100px;	
+	    top:40%;
+	    margin-left:100px;
+	    bottom:initial!important;
+}
+.carousel-caption h4{
+	text-align: center;
+	padding-bottom:250px;
+	font-size:40px;
+	font-weight: bold;
+	color:#D0D4D7;
+}
+#outlook{
+	background-color:#000b18;
+	height:100vh;
+	transition: background 3s;
+	background-repeat:no-repeat;
+
+}
+#outlook h2:hover{
+	background:#00498d;
+}
+#outlook h2{
+	font-size:30px;
+	line-height: 1.4;
+	letter-spacing:0.5rem;
+	text-align:center;
+	color:#fff;
+	margin-top: 50px;
+}
+#outlook img{
+	height:100vh;
+}
+.maindiv{
+	width:70%;
+	height:200px;
+	margin-left: 50px;
+	margin-top: 80px;
+	background-image: url('https://invar.nyc/wp-content/uploads/2016/07/banner-1.jpg');
+	background-size: 100% 100%;
+	box-shadow:3px 3px 10px 5px white;
+	animation:slider 9s infinite linear;
+
+}
+@keyframes slider{
+        0%{background-image: url('https://invar.nyc/wp-content/uploads/2016/07/banner-1.jpg'); }
+        35%{background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTzrqITQdd5ZKGbiDWlKBTKjHrPLaXWoL2uMQ&usqp=CAU');}
+        75%{ background-image: url('https://www.haleymarketing.com/wp-content/uploads/2018/08/5-Examples-of-Background-Video-in-Websites-1-1024x536.jpg');}
+}
+.button{
+	background-color:#00498d;
+	color:#fff;
+	width:200px;
+	height:50px;
+	border-radius:10px;
+	border:none;
+	margin:none;
+	font:weight:bold;
+	margin-top: 40px;
+	margin-left:180px;
+}
+.text1{
+	margin-top: 50px;
+	color:#fff;
+	background-color:black;
+	padding:10px;
+}
+.text1:hover{
+	background-color: blue;
+}
+#about{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color:darkblue;
+}
+.aboutus{
+	float:left;
+    text-align: center;
+    padding-left:100px;
+    font-weight:400;
+}
+.aboutus p{
+    color:#303F9F;
+}
+#margin .button{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.about-content{
+    padding-top: 20px;
+}
+.skills-bar p{
+	margin-bottom: 6px;
+	font-weight: 600;
+}
+.progress-bar{
+	border-radius:16px;
+}
+.progress{
+	border-radius: 16px;
+	margin-bottom: 20px;
+}
+#services{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("https://files.madcomsolutions.com/images/backgrounds/it-background2.jpg");
+	background-size: cover;
+	background-position:center;
+	color:#efefef!important;
+	background-attachment: fixed;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#services h1{
+	text-align: center;
+	color:#efefef!important;
+	padding-bottom: 10px;
+}
+
+#services h1::after{
+    content:" ";
+    background:#efefef;
+    display:block;
+    height:3px;
+    width:170px;
+    margin:20px auto 5px;
+
+}
+.services{
+	margin-top: 40px;
+
+}
+.icon{
+	font-size:40px;
+	margin:20px auto;
+	padding:20px;
+	height:80px;
+	width:80px;
+	border:1px solid #fff;
+	border-radius: 50%;
+}
+#services p{
+	font-size: 14px;
+	margin-top: 20px;
+	color:#ccc;
+}
+.services .col-md-3:hover{
+	background:#007bff;
+	cursor:pointer;
+	transition: 0.7s;
+}
+#team{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color:#555;
+}
+h1{
+	text-align: center;
+	color:#555!important;
+	padding-bottom: 10px;
+}
+h1::after{
+	content:"";
+	background:#007bff;
+	display:block;
+	height:3px;
+	width:170px;
+	margin:20px auto 5px;
+}
+.profile-pic{
+	margin-top:25px;
+
+}
+.profile-pic .img-box{
+	opacity: 1;
+	display: block;
+	position: relative;
+}
+.profile-pic .img-box img{
+	filter:grayscale(1);
+	height:250px;
+}
+.profile-pic .img-box img:hover{
+	filter: grayscale(0);
+	cursor: pointer;
+}
+.profile-pic h2{
+	font-size: 22px;
+	font-weight: bold;
+	margin-top:15px;
+	color:#007bff!important;
+}
+.profile-pic h3{
+	font-size: 15px;
+	font-weight: bold;
+	margin-top:15px;
+}
+#team .fa{
+	height:25px;
+	width:25px;
+	color:#007bff!important;
+	background:#fff;
+	padding:4px;
+	border-radius:50%;
+}
+.img-box ul{
+	padding:15px 0;
+	position: absolute;
+	z-index:2;
+	bottom: 0;
+	left:50%;
+	transform:translateX(-50%);
+	opacity:0;
+}
+.img-box ul li{
+	padding:5px;
+	display:inline-block;
+}
+.img-box:hover ul{
+	opacity: 1;
+}
+.img-box ul, .img-box ul li {
+	transition: 0.5s;
+}
+#promo{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("https://pictures.brafton.com/x_0_0_0_14109681_800.jpg");
+	background-size: cover;
+	background-position: center;
+	color:#fff;
+	background-attachment: fixed;
+	text-align: center;
+	padding:100px;
+	font-family: sans-serif;
+	font-size:38px;
+}
+#price{
+	padding:4px 0;
+	background-color:#efefef;
+}
+.single-price{
+	margin:10px auto;
+	display:inline;
+	float:left;
+	width:100%;
+	background-color: #fff;
+	transition:0.5s;
+
+}
+.single-price:hover{
+	box-shadow: 0 2px 20px #333;
+}
+.price-head{
+	background-color: #203354;
+	display:inline;
+	float:left;
+	padding:10px 5px;
+	text-align:center;
+	width:100%;
+}
+.price-head h2{
+	color:#fff;
+	font-size:30px;
+	font-weight:bold;
+	margin-bottom: 5px;
+	padding:5px;
+	text-transform:uppercase;
+}
+#price span{
+	font-size:15px;
+}
+.price-content{
+	display:inline;
+	float:left;
+	width:100%;
+	padding:0 15px;
+}
+.price-content ul li {
+	border-bottom: 1px solid #efefef;
+	padding:15px 10px;
+	list-style: none;
+}
+ul li:last-child{
+	border:none;
+}
+.fa-check-circle{
+	color:green;
+	margin-right:10px;
+	font-size:20px;
+}
+.price-button{
+	display: inline;
+	float:left;
+	padding:15px 15px 30px;
+	text-align: center;
+	width:100%;
+}
+.buy-btn{
+	background-color: #203354;
+	border-radius: 3px;
+	display: inline-block;
+	font-size:18px;
+	padding: 15px 50px;
+	transition: 0.5s;
+}
+.buy-btn:hover{
+	border-color:1px solid #fff;
+	background-color: #3f51b5;
+}
+a{
+	text-decoration: none!important;
+	color:#fff!important;
+}
+#testimonials{
+	padding-top:50px;
+	padding-bottom: 50px;
+
+}
+
+#testimonials .row{
+	margin-top: 30px;
+}
+.col-md-4{
+	margin:40px auto;
+}
+.profile{
+	padding:70px 10px 10px;
+	background-color: #efefef;
+}
+.user{
+	width:120px;
+	height:120px;
+	border-radius:50%;
+}
+.profile img{
+	top:-60px;
+	right:125px;
+	position:absolute;
+	left:calc(50% -60px);
+	border:10px solid #fff;
+}
+.profile h3{
+	font-size: 20px;
+	margin-top:15px;
+	color:#007bff;
+}
+#testimonials{
+	background-image: url('https://www.procodeitservices.com/wp-content/uploads/2016/11/testimonial.jpg');
+	background-attachment: fixed;
+}
+
+#testimonials h1{
+	color:#fff!important;
+}
+#testimonials p{
+	color:#fff;
+}
+#testimonials span{
+	font-size:12px;
+	color:#333;
+}
+blockquote{
+	font-size:16px;
+	line-height: 30px;
+}
+
+blockquote::before{
+    content:'\93';
+    font-size:50px;
+    color:#007bff;
+    position:relative;
+    line-height: 20px;
+    bottom:-15px;
+    right:5px;
+}
+blockquote::after{
+    content:'\94';
+    font-size:50px;
+    color:#007bff;
+    position:relative;
+    line-height:10px;
+    bottom:-15px;
+    left:5px;
+}
+.profile:hover{
+	box-shadow: 0 0 10px 10px #555;
+	cursor: pointer;
+	transition:0.5s;
+}
+#contact{
+	background:#203354;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color:#777;
+}
+.contact-form{
+	padding:15px;
+}
+#contact h1{
+	color:#fff!important;
+}
+.form-control{
+	border-radius:10px!important;
+	border:none;
+}
+::placeholder{
+	color:#999 !important;
+}
+.follow{
+	background:#fff;
+	padding:10px;
+	margin:15px;
+}
+.contact-info .fa{
+	margin:10px;
+	color:#007bff;
+	font-weight:bold;
+}
+.contact-info i:hover{
+       color:#555;
+       transition:0.5s;
+       box-shadow: 0 0 10px 10px rgba(0,0,0,0.2);  
+}
+#footer{
+	background:#000;
+	color:#fff;
+	padding:12px;
+
+}
+.fa-heart-o{
+	margin:3px;
+	color:red; 
+}
+
+
+@media (min-width: 320px) and (max-width:767px){
+  .carousel-caption{
+    max-width: width auto;
+    height: 50px;
+    top:40%;
+    margin-left:30px;
+  }
+  .carousel-caption h4{
+    font-size:20px;
+    padding-bottom:10px;
+  }
+	#outlook{
+    height:auto;
+    width: auto;
+	}
+	#outlook .button{
+		margin-left:150px;
+	}
+  #outlook .text1{
+  padding-left:20px;
+  }
+  #about h2{
+    text-align: center;
+    margin-right:80px;
+  }
+  #about .about-content{
+    text-align: center;
+    margin-right:80px;
+  }
+    #about .aboutus button{
+       text-align: center;
+    margin-right:80px;
+    }
+    #promo{
+      font-size:35px;
+    }
+	#price{
+    width:auto;
+    height: auto;
+    font-size: 35px;
+}
+#price .single-price{
+  width: 50%;
+  height:auto;
+  font-size: 20px;
+  margin-left:120px;
+}
+#testimonials .profile{
+  margin-left:40px;
+  margin-right:40px;
+}
+#testimonials .profile .user{
+  margin-right:80px;
+}
+@media (min-width: 768px) and (max-width:1023px){
+  .carousel-caption {
+    max-width: width auto;
+    height:70px;
+    top:40%;
+    margin-left:20px;
+  }
+  .carousel-caption h4{
+    font-size:10px;
+    padding-bottom:10px;
+  }
+  #outlook{
+    height:auto;
+    width: auto;
+	}
+	#outlook .button{
+		margin-right:50px;
+	}
+  #outlook .text1{
+  padding-left:20px;
+  }
+   #about h2{
+    text-align: center;
+    margin-right:80px;
+  }
+  #about .about-content{
+    text-align: center;
+    margin-right:80px;
+  }
+    #about .aboutus button{
+       text-align: center;
+    margin-right:80px;
+    }
+    #promo{
+      font-size:35px;
+    }
+	#price{
+    width:auto;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
